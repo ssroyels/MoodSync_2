@@ -14,7 +14,7 @@ const Dashboard = () => {
   useEffect(() => {
     if (user?.email) {
       axios
-        .get(`https://moodsync-fgs9.onrender.com/mood/history/${user.email}`, {
+        .get(`https://moodsync-2-ydgo.onrender.com/mood/history/${user.email}`, {
           withCredentials: true,
         })
         .then((res) => {

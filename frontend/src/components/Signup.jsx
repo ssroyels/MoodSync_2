@@ -11,7 +11,7 @@ export default function Signup() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://moodsync-fgs9.onrender.com/User/register", { username, email, password },{ withCredentials: true
+      .post("https://moodsync-2-ydgo.onrender.com/User/register", { username, email, password },{ withCredentials: true
 })
       .then(() => {
         // ✅ Correct way to store multiple values in localStorage

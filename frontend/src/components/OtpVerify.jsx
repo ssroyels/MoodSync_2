@@ -33,7 +33,7 @@ const OTPVerify = () => {
     try {
       const response = await axios
         .post(
-          "https://moodsync-fgs9.onrender.com/User/verifyOtp",
+          "https://moodsync-2-ydgo.onrender.com/User/verifyOtp",
           {
             email: signupData.email,
             otp,

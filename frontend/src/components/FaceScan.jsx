@@ -113,7 +113,7 @@ const FaceScan = () => {
   const saveExpressionToDB = async (mood1) => {
     try {
       await axios.post(
-        "https://moodsync-fgs9.onrender.com/mood/save",
+        "https://moodsync-2-ydgo.onrender.com/mood/save",
         {
           userId: user?.email,
           mood: mood1,

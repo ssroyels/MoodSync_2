@@ -10,7 +10,7 @@ export default function Login() {
     e.preventDefault();
     await axios
       .post(
-        "https://moodsync-fgs9.onrender.com/User/login",
+        "https://moodsync-2-ydgo.onrender.com/User/login",
         { email, password },
         { withCredentials: true }
       )
